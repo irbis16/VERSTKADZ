@@ -62,6 +62,10 @@
     height: 17px;
 }
 
+.main-menu a {
+    color: #000;
+}
+
 .main-menu a:active {
     color: #F25822;
 }
@@ -85,29 +89,30 @@ a#levels::after {
     height: 374.84px;
 }
 
-h1 {
+.promo-text h1 {
     font-family: 'Gilroy-Bold';
     font-size: 60px;
     line-height: 70px;
     color: #000000;
-}
-
-.block-title {
     width: 522px;
     height: 222px;
+    margin-bottom: 17px;
 }
 
-.block-content {
+
+.promo-text p {
     width: 466px;
     height: 48px;
     font-family: 'Gilroy-Medium';
     font-size: 20px;
     line-height: 23px;
     color: #888888;
+    margin-bottom: 37px;
 }
 
 .container.top {
-    margin-bottom: 96px;
+    margin-bottom: 84px;
+    margin-top: 40px;
 }
 
 .send {
@@ -124,9 +129,7 @@ h1 {
     height: 50px;
 }
 
-.block-content {
-    margin-bottom: 37px;
-}
+
 
 .videolink {
     width: 90px;
@@ -140,4 +143,28 @@ h1 {
 
 .partners {
     padding: 96px 0 97px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 153px;
+}
+
+.partners ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
